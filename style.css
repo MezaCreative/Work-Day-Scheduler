@@ -21,8 +21,9 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.info{
   white-space: pre-wrap;
+  padding: 0px;
 }
 
 .time-block{
