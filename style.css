@@ -70,3 +70,13 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.grey {
+  background-color: #d3d3d3;
+}
+.green{
+  background-color: green;
+}
+.red {
+  background-color: firebrick;
+}
