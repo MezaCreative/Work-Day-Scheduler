@@ -14,11 +14,11 @@ This aplication pulls from the library of [Moment.js](https://momentjs.com/) to 
 
 The following animation demonstrates the application functionality:
 
-![Day planner Image](https://github.com/MezaCreative/Work-Day-Scheduler/blob/main/image.png)
+![Work-Day-Scheduler Image](https://github.com/MezaCreative/Work-Day-Scheduler/blob/main/image.png)
 
-![Day planner demo](https://github.com/MezaCreative/Work-Day-Scheduler/blob/main/demo.gif)
+![Work-Day-Scheduler demo](https://github.com/MezaCreative/Work-Day-Scheduler/blob/main/demo.gif)
 
-Preview of the site is available here [Password-Generator](https://mezacreative.github.io/Work-Day-Scheduler/).
+Preview of the site is available here [Work-Day-Scheduler](https://mezacreative.github.io/Work-Day-Scheduler/).
 
 
 
