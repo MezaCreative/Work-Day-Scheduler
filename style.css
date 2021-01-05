@@ -75,8 +75,8 @@ textarea{
   background-color: #d3d3d3;
 }
 .green{
-  background-color: green;
+  background-color: rgb(111, 240, 111);
 }
 .red {
-  background-color: firebrick;
+  background-color: rgb(255, 152, 152);
 }

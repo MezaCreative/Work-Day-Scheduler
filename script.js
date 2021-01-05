@@ -7,8 +7,8 @@ $(document).ready(function() {
     $(".saveBtn").on("click", function(){
         savedText =$(this).siblings(".info").val();
         savedTime =$(this).parent().attr("id");
-        console.log(savedText);
-        console.log(savedTime);
+       // console.log(savedText);
+        //console.log(savedTime);
         localStorage.setItem(savedTime, savedText);
     })
 
@@ -31,9 +31,12 @@ function hourColors(){
 hourColors();
 // loads saved data from local storage
 function loadText() {
-   $(".time-Block").each(function() {
-      var recoverText = localStorage.getItem($(this).siblings.attr("info"));
-      $(this).val(recoverText); 
+   $(".time-block").each(function() {
+      //console.log(this);
+      //console.log(this.id);
+      var recoverText = localStorage.getItem($(this).attr("id"));
+      console.log(recoverText);
+      $("#" + this.id + " .info").val(recoverText); 
    })
 }
 loadText();
